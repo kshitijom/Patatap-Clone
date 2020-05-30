@@ -1,0 +1,44 @@
+canvas {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.message {
+    display: inline-block;
+    background: white;
+    color: #666666;
+    font-family: "Lucida Grande", verdana, sans-serif;
+    font-size: 12px;
+    line-height: 32px;
+    border-radius: 10.56px;
+    padding: 0 16px;
+}
+
+div {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 15%;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.hideMessage {
+    display: none;
+}
